@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Clique</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    <link rel="stylesheet" href="assets/styles/main.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="menu-time">
+                <h2 style="color: #ff0000;">Time Left</h2>
+                <h2 class="espaco-vertical" id="time-left">30</h2>
+            </div>
+            <div class="menu-score">
+                <h2 style="color: #ff0000;">Your Score</h2>
+                <h2 class="espaco-vertical" id="score">0</h2>
+            </div>
+            <div class="menu-lives">
+                <img src="assets/images/plant.png" width=50px />
+            </div>
+        </div>
+        <div class="panel">
+            <div class="panel-row">
+                <div class="square enemy" id="1"></div>
+                <div class="square" id="2"></div>
+                <div class="square" id="3"></div>
+            </div>
+
+            <div class="panel-row">
+                <div class="square" id="4"></div>
+                <div class="square" id="5"></div>
+                <div class="square" id="6"></div>
+            </div>
+
+            <div class="panel-row">
+                <div class="square" id="7"></div>
+                <div class="square" id="8"></div>
+                <div class="square" id="9"></div>
+            </div>
+        </div>
+        <div id="result-display"></div>
+    </div>
+    <script defer src="assets/scripts/engine.js"></script>
+</body>
+</html>

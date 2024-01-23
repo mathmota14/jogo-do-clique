@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(/assets/images/wall.png);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-bottom: 5px solid rgb(238, 211, 54);
+}
+
+.panel{
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000000;
+    background-color: #61d8a5;
+}
+
+.enemy{
+    background-image: url(/assets/images/zombie.png);
+    background-size: cover;
+    background-position: 7px 0px;
+}
+
+.menu-lives{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.espaco-vertical{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#result-display{
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+}
